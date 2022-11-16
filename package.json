@@ -1,0 +1,29 @@
+{
+  "name": "ip-address-tracker-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the IP address tracker coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N-Ignacio-Bouffanais/ip-address-tracker.git"
+  },
+  "keywords": [
+    "SASS",
+    "CSS-grid",
+    "JavaScript",
+    "HTML5",
+    "Responsive design"
+  ],
+  "author": "Nicolas Ignacio Bouffanais Lay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N-Ignacio-Bouffanais/ip-address-tracker/issues"
+  },
+  "homepage": "https://github.com/N-Ignacio-Bouffanais/ip-address-tracker#readme",
+  "dependencies": {
+    "sass": "1.56.1"
+  }
+}
