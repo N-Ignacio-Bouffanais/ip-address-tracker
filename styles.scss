@@ -2,7 +2,30 @@ $Very-Dark-Gray: hsl(0, 0%, 17%);
 $Dark-Gray: hsl(0, 0%, 59%);
 
 //- Font size (text input): 18px
+html {
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
 
-body{
-    font-family: 'Rubik', sans-serif;
+footer .attribution {
+  display: flex;
+  padding: 5rem 10vw 3rem;
+  text-align: center;
+  margin: 0 auto;
+  p {
+    font-size: 1.5rem;
+    color: white;
+  }
+  a {
+    color: var(--Lime-Green);
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
 }
