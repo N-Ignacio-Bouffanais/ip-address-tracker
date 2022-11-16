@@ -55,6 +55,23 @@ main .search span {
   text-align: center;
   border-radius: 0 1rem 1rem 0;
 }
+main .content-tracker {
+  background-color: white;
+  width: 85vw;
+  min-height: 14rem;
+  border-radius: 1.2rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 2.5rem;
+  position: absolute;
+  top: 18rem;
+  left: 7vw;
+}
+main .content-tracker h2 {
+  font-size: 1.4rem;
+  color: hsl(0deg, 0%, 59%);
+}
 
 footer .attribution {
   display: flex;
