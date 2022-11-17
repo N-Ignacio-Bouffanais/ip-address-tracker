@@ -13,13 +13,13 @@ html {
 body {
   font-family: "Rubik", sans-serif;
 }
-main{
-  .container{
+main {
+  .container {
     position: relative;
     text-align: center;
   }
-  .title{
-    h1{
+  .title {
+    h1 {
       color: white;
       font-size: 2.8rem;
       font-weight: 400;
@@ -29,24 +29,24 @@ main{
     margin: 0 auto;
     width: 100%;
   }
-  .search{
+  .search {
     display: flex;
     position: absolute;
     width: 100%;
     top: 9rem;
     justify-content: center;
     height: 4.8rem;
-    input{
+    input {
       width: 38rem;
       border: none;
       border-radius: 1rem 0 0 1rem;
       padding-left: 2.2rem;
       font-size: 1.7rem;
-      &:focus{
+      &:focus {
         outline: none;
       }
     }
-    span{
+    span {
       color: white;
       background-color: $Very-Dark-Gray;
       width: 4.4rem;
@@ -57,7 +57,8 @@ main{
       border-radius: 0 1rem 1rem 0;
     }
   }
-  .content-tracker{
+  .content-tracker {
+    z-index: 2;
     background-color: white;
     width: 85vw;
     min-height: 14rem;
@@ -69,10 +70,15 @@ main{
     position: absolute;
     top: 18rem;
     left: 7vw;
-    h2{
+    h2 {
       font-size: 1.4rem;
       color: $Dark-Gray;
     }
+  }
+  #map {
+    height: 500px;
+    width: 100%;
+    z-index: 1;
   }
 }
 

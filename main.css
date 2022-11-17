@@ -56,6 +56,7 @@ main .search span {
   border-radius: 0 1rem 1rem 0;
 }
 main .content-tracker {
+  z-index: 2;
   background-color: white;
   width: 85vw;
   min-height: 14rem;
@@ -71,6 +72,11 @@ main .content-tracker {
 main .content-tracker h2 {
   font-size: 1.4rem;
   color: hsl(0deg, 0%, 59%);
+}
+main #map {
+  height: 500px;
+  width: 100%;
+  z-index: 1;
 }
 
 footer .attribution {
